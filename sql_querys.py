@@ -4,7 +4,7 @@
 TASK_1_QUERY = """
 SELECT flight_no, scheduled_arrival - scheduled_departure as duration FROM flights
 order by duration
-limit 5
+limit 5;
 """
 #  flight_no | duration 
 # -----------+----------
